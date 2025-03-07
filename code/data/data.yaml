@@ -1,0 +1,12 @@
+ # dataset path
+train: ./dataset/images/train
+val: ./dataset/images/val
+test: ./dataset/images/val
+
+# number of classes
+nc: 15
+
+# class names
+names: ['car', 'Truck', 'Van', 'Long Vehicle','Bus', 'Airliner', 'Propeller Aircraft', 'Trainer Aircraft', 'Chartered Aircraft', 'Fighter Aircraft',\
+        'Others', 'Stair Truck', 'Pushback Truck', 'Helicopter', 'Boat']
+
